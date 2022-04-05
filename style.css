@@ -1,0 +1,32 @@
+.div{
+    display:flex;
+    
+
+}
+.header{
+        display:flex;
+        height:100px;
+        background-color: grey;
+        
+
+}
+
+.aside{
+    flex:2;
+  
+   
+
+}
+
+.main{
+    
+    flex:6;
+    background-color: blueviolet;
+
+
+}
+
+.footer{
+
+
+}
