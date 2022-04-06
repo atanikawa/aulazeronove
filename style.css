@@ -1,33 +1,46 @@
-.div{
+div{
     display:flex;
-    
+
 
 }
-.header{
-        display:flex;
-        height:100px;
-        background-color: grey;
-        
+header{
+      }
 
-}
-
-.aside{
+aside{
     flex:2;
-    background-color: rgb(235, 82, 82);
   
-   
 
 }
 
-.main{
+main{
     
     flex:6;
-    background-color: blueviolet;
+ 
+
+}
+
+footer{
 
 
 }
 
-.footer{
-
+nav{
+    display:flex;
+    justify-content: space-around;
+  
+   
+    
+}
+nav div:not(:first-child){
+    border:1px solid black;
+    padding:10px;
 
 }
+nav div:not(:first-child):hover{
+    background-color: #bbb;
+
+}
+a {
+    color:darkgreen
+
+}    
